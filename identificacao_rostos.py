@@ -8,8 +8,6 @@ OBS.: Antes de executar definir o caminho do XML Haarcascades na instalacao do O
 """
 
 import cv2
-import sys
-import numpy as np
 
 #insert haarcascades xml full path
 face_cascade = cv2.CascadeClassifier('C:\\Python27\\libs\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml');
